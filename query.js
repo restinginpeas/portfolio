@@ -11,7 +11,7 @@ $(document).ready(function() {
       letterIndex++;
       setTimeout(type, 50);
     } else {
-      setTimeout(erase, 1000);
+      setTimeout(erase, 2500);
     }
   }
 
@@ -23,7 +23,7 @@ $(document).ready(function() {
     } else {
       currentIndex = (currentIndex + 1) % texts.length; 
       letterIndex = 0;
-      setTimeout(type, 500);
+      setTimeout(type, 1000);
     }
   }
 
