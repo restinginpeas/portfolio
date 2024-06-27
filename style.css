@@ -15,7 +15,7 @@
 .clear-fix {clear: both;overflow: hidden;}
 .clear-fix:after, .clear-fix:before {content: "";display: table;clear: both;}
 
-body{font-family: var(--pri-font); font-size: 18px; }
+body{font-family: var(--pri-font); font-size: 18px; padding: 40px; }
 
 body:before{content:'';background:linear-gradient(115deg, var(--color1) 0%, var(--color2) 43%, var(--color3) 100%); width:100%; height:100%; position: fixed; top:0; left:0; display: block; z-index: -1;}
 body:after { content: ''; background: none; width: 100%; height: 100%;  position: absolute;    top: 0;    left: 0; border: 40px solid rgba(255, 255, 255, .15); outline: 3px solid rgba(255, 255, 255, .20); outline-offset: -40px; z-index: -1;}
