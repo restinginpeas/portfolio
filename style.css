@@ -27,6 +27,7 @@ header, div, footer, nav{position: relative;}
 
 .hero-con{padding:0 25px; display: flex; justify-content: center; gap:20px; align-items: center;}
 .hero-con figure{width:300px; max-width: 100%;}
+.hero-con figure img{width:100%}
 .hero-info{width: 48%;}
 .hero-info h2{font-size: 30px; font-weight:700; }
 .hero-info h2 span{display: block;}
