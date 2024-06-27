@@ -25,7 +25,8 @@ body:after { content: ''; background: none; width: 100%; height: 100%;  position
 header, div, footer, nav{position: relative;}
 
 
-.hero-con{padding:0 25px;}
+.hero-con{padding:0 25px; display: flex; justify-content: center; gap:20px; align-items: center;}
+.hero-con figure{width:48%}
 .hero-info{width: 48%;}
 .hero-info h2{font-size: 30px; font-weight:700; }
 .hero-info h2 span{display: block;}
